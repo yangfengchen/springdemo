@@ -2,7 +2,7 @@ package com.sfpy.test;
 
 import com.alibaba.fastjson.JSON;
 import com.sfpy.entity.usersystem.TblUser;
-import com.sfpy.service.TestService;
+import com.sfpy.service.testservice.TestService;
 import com.sfpy.service.usersystem.TblUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

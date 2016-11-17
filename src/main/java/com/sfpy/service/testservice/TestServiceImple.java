@@ -1,8 +1,7 @@
-package com.sfpy.service;
+package com.sfpy.service.testservice;
 
 import com.sfpy.dao.usersystem.TblUserMapper;
 import com.sfpy.entity.usersystem.TblUser;
-import com.sfpy.service.usersystem.TblUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

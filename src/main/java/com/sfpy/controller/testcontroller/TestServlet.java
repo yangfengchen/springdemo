@@ -1,4 +1,4 @@
-package com.sfpy.controller.usersystem;
+package com.sfpy.controller.testcontroller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

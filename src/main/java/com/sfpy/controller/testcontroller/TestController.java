@@ -1,4 +1,4 @@
-package com.sfpy.controller.usersystem;
+package com.sfpy.controller.testcontroller;
 
 import com.sfpy.service.testservice.TestService;
 import org.slf4j.Logger;
