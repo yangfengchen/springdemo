@@ -13,4 +13,6 @@ public interface TestService {
 
     int insert();
 
+    int testException();
+
 }

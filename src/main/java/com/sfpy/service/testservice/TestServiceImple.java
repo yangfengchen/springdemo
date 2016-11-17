@@ -22,13 +22,20 @@ public class TestServiceImple implements TestService{
         return tblUserMapper.selectAll();
     }
 
-    public int insert(){
+    public int insert() {
         TblUser tblUser = new TblUser();
         tblUser.setId("22");
         tblUser.setAlias("dd");
         int count = tblUserMapper.insert(tblUser);
         System.out.println(count);
         int i = 1/0;
+        System.out.println(i);
         return count;
     }
+
+    public int testException() {
+        int i = 1/0;
+        return 0;
+    }
+
 }

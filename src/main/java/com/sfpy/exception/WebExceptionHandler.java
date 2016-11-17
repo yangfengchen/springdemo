@@ -1,20 +1,18 @@
-package com.sfpy.controller;
+package com.sfpy.exception;
 
-import com.sfpy.exception.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by Administrator on 2016/11/16.
  */
-@Controller
-public class BaseController {
+@ControllerAdvice
+public class ExceptionHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(BaseController.class);
+    private static final Logger log = LoggerFactory.getLogger(ExceptionHandler.class);
 
     @ExceptionHandler
     public String exp(HttpServletRequest request, Exception ex) {
