@@ -36,7 +36,7 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.0" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.13" />
-          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.12" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.11" />
         </element>
       </element>
       <element id="directory" name="META-INF">

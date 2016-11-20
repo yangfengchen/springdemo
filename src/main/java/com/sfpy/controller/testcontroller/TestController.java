@@ -33,7 +33,7 @@ public class TestController {
 
     @RequestMapping(value = "testIndex.htm")
     private String testIndex(HttpServletRequest request, HttpServletResponse response){
-       testService.testException();
+       testService.selectAll();
         return "/index";
     }
 }
