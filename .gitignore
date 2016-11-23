@@ -1,5 +1,5 @@
-target/
-.idea/
+target/*
+.idea/*
 # Auto detect text files and perform LF normalization
 * text=auto
 
